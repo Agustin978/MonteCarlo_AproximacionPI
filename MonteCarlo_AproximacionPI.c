@@ -23,7 +23,7 @@ int calcular_puntos_circulo(int iteraciones) {
 }
 
 int main(int argc, char** argv) {
-    int total_iteraciones = (int)pow(10,3); // Total de iteraciones
+    int total_iteraciones = (int)pow(10,7); // Total de iteraciones
     int my_rank, num_procs; // ID del proceso y número total de procesos
     int iteraciones_por_proceso;
     int puntos_dentro_local, puntos_dentro_total;
